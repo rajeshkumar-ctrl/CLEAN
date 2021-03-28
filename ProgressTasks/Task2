@@ -1,1 +1,10 @@
 
+Given a list of integers, write a function that keeps only every third element in the list.
+
+If the length of the list is less than 3, return an empty list.
+
+ 
+
+//Start = onlyThirds [1..9] // [3, 6 ,9]
+//Start = onlyThirds [3..10] // [5 , 8 ]
+//Start = onlyThirds [1,2] // []
