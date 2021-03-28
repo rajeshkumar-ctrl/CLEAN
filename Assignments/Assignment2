@@ -1,0 +1,36 @@
+# Second_Assignment_CleanLang
+
+Upload just .icl file.
+
+Your submission should not have any errors when running the code.
+
+It is possible to get partial points for not working code, but please make sure you comment out the errors.
+
+You should not delete anything from the given code, given test cases should stay the same, but you can add your tests as well.
+Don't change the given function signatures, however, you can add as many functions as you wish, just make sure to name them appropriately (if function squares the number, call it 'square', 'second_power', etc. and not 'f' or 'g'). The same goes for variable names. 
+
+Make sure that you comment all 'Start'-s before submitting the code.
+
+
+//1. Give a list of numbers, multiplying all even numbers by 2 and all odd numbers by 3
+
+//Start = multiply [14, 22, 45, 56] // [28, 44, 135, 112]
+//Start = multiply [13, 27, 44] // [39, 81, 88]
+//Start = multiply [] // []
+
+// 2. Given a list of integers, find the prime numbers and compute the sum of them.
+// Return 0 for empty lists or if there are no primes.
+
+//Start = sum_of_prime [14, 22, 45, 56] // 0
+//Start = sum_of_prime [13, 27] // 13
+//Start = sum_of_prime [13, 3, 76, 17] // 33
+//Start = sum_of_prime [] // 0
+
+/*
+3. Given two lists of integers of the same length, check if the elements in two lists with the same index are of the same property (both even or both odd).
+Return True for empty lists
+*/
+
+//Start = same [1,2,3] [2,4,6] // False
+//Start = same [1,2,3,4] [3,8,5,12] // True
+//Start = same [] [] // True
