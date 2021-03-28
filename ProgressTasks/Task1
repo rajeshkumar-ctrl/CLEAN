@@ -1,0 +1,5 @@
+Write a recursive(!) function for exponentiation, i.e. your function should take two Integer arguments 'x' and 'n' and give back 'x' to the power of 'n' (x*x*x ... *x).  Assume that 'n' is non-negative.
+
+Note: 'x' to the power 0 is 1.
+
+You should upload .icl file.
