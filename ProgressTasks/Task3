@@ -1,0 +1,2 @@
+Given a list of integers, write a function that goes through the elements, and for every element i,  generates the i-th Fibonnaci number,  check if it's even or odd, only keeps the odd ones.
+Example [0,1,2] -> [1,1] because the 0th fib is 1, the 1st fib is 1 and the 2nd fib is 2,  but 2 is an even number, so it's not in the final list.
