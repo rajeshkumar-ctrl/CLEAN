@@ -1,1 +1,73 @@
 
+# FIrst_Assignment
+Functional Programming Aka Clean Language
+
+Here are three Tasks:
+// Write a function that will take a digit (Int)
+
+// and return the respective word for it (String).
+
+// For example input of 1 should output One; input of 0 should output Zero; input of 5 should output Five.
+
+// Anything that is not the digit (0-9) should output "Not a digit"
+
+
+
+//digit_to_string :: Int -> String
+
+//Start = digit_to_string 4 //"Four"
+
+//Start = digit_to_string 0 //"Zero"
+
+//Start = digit_to_string 5 //"Five"
+
+//Start = digit_to_string 10 //"Not a digit"
+
+//Start = digit_to_string -1 //"Not a digit"
+
+//Start = digit_to_string 42 //"Not a digit"
+
+
+
+
+
+// Write a function that takes Int and checks if this number is prime or not.
+
+// handle the case of negative numbers (negative numbers are not primes).
+
+// 0 and 1 are not prime numbers.
+
+
+
+// is_prime :: Int -> Bool
+
+// Start = is_prime 5 // True
+
+// Start = is_prime 0 // False
+
+// Start = is_prime 1 // False
+
+// Start = is_prime 2 // True
+
+// Start = is_prime 2017 // True
+
+
+
+
+// Write a function that takes Int argument and checks if this number is a palindrome.
+
+// Palindrome is a number that is the same when we read from left to right or from right to left.
+
+
+
+// is_palindrome :: Int -> Bool
+
+// Start = is_palindrome 0 // True
+
+// Start = is_palindrome 55 // True
+
+// Start = is_palindrome 49594 // True
+
+// Start = is_palindrome 1337 // False
+
+// Start = is_palindrome ~57975 // False // negative numbers are not palindromes.
