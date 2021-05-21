@@ -117,4 +117,4 @@ prime x = and[x rem element <> 0 \\ element<-[2..x-1]]
 
 fibo :: Int -> [Int]
 fibo secret= takeWhile (\x -> x<=secret) fibList
-Start =fibo 10
+//Start =fibo 10
