@@ -1,4 +1,4 @@
-module endterm
+module MyFinal
 import StdEnv
 
 /*---------------------------------------------------------------
