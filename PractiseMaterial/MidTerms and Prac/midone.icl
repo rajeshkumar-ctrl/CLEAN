@@ -75,6 +75,7 @@ sumTillGreater list = sum(takeWhile(\x -> x <=10) list)
 
 
 
+
 ///Task06
 /*
 Given a list of Tuples of Integer, give a list of integers produced if we raise
@@ -90,3 +91,30 @@ power listOfTuples = [((fst tuple)^(snd tuple))\\tuple<-listOfTuples | isEven ((
 //Start = power [(2,4),(3,2)]//[16]
 //Start=power [(1,100),(2,3),(4,5)]//[8,1024]
 //Start = power [(3,5),(7,9)]//[]
+
+
+/*
+1. Please write a function, where given an Int 'n', you return the nth Fibonacci number.
+2: Make a list of infinite Fibonacci numbers.
+3: Make a list only containing only Fibonacci numbers generated from prime integers. 
+4: Take from the list of primes indexed Fibonacci list
+the Fibonacci numbers that are less than an Int x.
+INFO: A Fibonacci number is calculated from a sequence start with 1 and 1, and each 
+successive number is the sum of the previous two numbers.
+A prime number is a number that has no divisors except 1 and itself.
+*/
+
+Fib :: Int -> Int
+Fib 0=0
+Fib 1=1
+Fib a = (Fib(a-2)+Fib(a-1))
+
+fibList :: [Int]
+fibList = [Fib a\\a<-[1..20]| prime a]
+
+prime :: Int -> Bool
+prime x = and[x rem element <> 0 \\ element<-[2..x-1]]
+
+fibo :: Int -> [Int]
+fibo secret= takeWhile (\x -> x<=secret) fibList
+Start =fibo 10
